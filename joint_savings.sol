@@ -73,22 +73,22 @@ contract JointSavings {
     }
 
     // Define a `public payable` function named `deposit`.
-    function deposit() public payable {
+    // function deposit() public payable {
 
         /*
         Call the `contractBalance` variable and set it equal to the balance of the contract by using `address(this).balance`.
         */
         // YOUR CODE HERE!
-    }
+    // }
 
     /*
     Define a `public` function named `setAccounts` that receive two `address payable` arguments named `account1` and `account2`.
     */
-    function setAccounts(address payable account1, address payable account2) public{
+    // function setAccounts(address payable account1, address payable account2) public{
 
         // Set the values of `accountOne` and `accountTwo` to `account1` and `account2` respectively.
         // YOUR CODE HERE!
-    }
+    // }
 
     /*
     Finally, add the **default fallback function** so that your contract can store Ether sent from outside the deposit function.
